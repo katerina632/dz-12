@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Getters an Setters Tests">
+    <test name="Person Getters and Setters">
+        <classes>
+            <class name="person.PersonTest">
+                <methods>
+                    <include name="testGetLastName"/>
+                    <include name="testSetLastName"/>
+                    <include name="testGetFirstName"/>
+                    <include name="testSetFirstName"/>
+                    <include name="testGetAge"/>
+                    <include name="testSetAge"/>
+                    <include name="testGetPartner"/>
+                    <include name="testSetPartner"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
